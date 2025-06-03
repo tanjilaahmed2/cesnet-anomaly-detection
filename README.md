@@ -29,9 +29,8 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
   - Rolling 2-day forecast
 - **Evaluation Metrics**: RMSE, MAE, SMAPE, R²
 
----
 
-## ⚠️ Anomaly Detection
+## Anomaly Detection
 
 - Based on residuals (actual – forecast)
 - Methods:
@@ -39,9 +38,8 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
   - MAD (Median Absolute Deviation)
   - Quantile (1st and 99th percentiles)
 
----
 
-## 📌 Notable Analysis
+## Notable Analysis
 
 - Known anomaly (probe outage): May 21 – June 4, 2024
 - Best detection performance achieved using MAD method (F1 ≈ 0.33)
