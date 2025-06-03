@@ -43,7 +43,7 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
   - 3-Sigma
   - MAD (Median Absolute Deviation)
   - Quantile (1st and 99th percentiles)
-  - **Evaluation Metrics**: Precision, Recall, F1-Score
+- **Evaluation Metrics**: Precision, Recall, F1-Score
 
 
 ## Notable Analysis
