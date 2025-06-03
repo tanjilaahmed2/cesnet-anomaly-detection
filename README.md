@@ -14,7 +14,7 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
 ](https://www.nature.com/articles/s41597-025-04603-x)
 ## Dataset Overview
 
-- **Source**: CESNET-TimeSeries24
+- **Source**: [CESNET-TimeSeries24](https://zenodo.org/records/13382427)
 - **Subset Used**: IP address `103.csv`
 - **Metric**: `n_flows` (number of flows per hour)
 - **Time Range**: Oct 2023 – July 2024
