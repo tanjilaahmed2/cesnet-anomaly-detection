@@ -6,6 +6,12 @@ This project applies forecasting-based anomaly detection on network traffic usin
 
 Detect anomalies such as DDoS attacks and outages by forecasting normal traffic and identifying significant residual errors.
 
+## Reference Paper
+- **Title**: CESNET-TimeSeries24: A Time Series Dataset for Network Anomaly Detection
+- **Authors**: Josef Koumpe, Václav Bartoš, et al.
+- **DOI**: 10.1038/s41597-025-04603-x
+- **PDF**: View Paper on Nature Scientific Data
+
 ## Dataset Overview
 
 - **Source**: CESNET-TimeSeries24
