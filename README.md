@@ -65,4 +65,4 @@ The notebook will:
 - Train SARIMA model on 31-day windows
 - Perform 7-day and 2-day forecasts
 - Detect anomalies using residual-based methods (3-Sigma, MAD, Quantile)
-- Generate and save plots under /images or /anomaly_plots
+- Generate and save plots 
