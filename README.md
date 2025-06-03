@@ -42,4 +42,16 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
 ## Notable Analysis
 
 - Known anomaly (probe outage): May 21 – June 4, 2024
-- Best detection performance achieved using MAD method (F1 ≈ 0.33)
+- Best detection performance achieved using MAD method (F1 = 0.27)
+
+## 📁 Project Structure
+cesnet-anomaly-detection/
+├── CESNET_Anomaly_Detection.ipynb # Main analysis notebook
+├── images/ # Forecast & anomaly detection plots
+│ ├── forecast_vs_actual.png
+│ ├── anomaly_detection_7d_2d.png
+│ └── ...
+├── Presentation_Slides.pdf # 20-min interview slide deck
+├── 103.csv # Sample IP flow data
+├── times_1_hour.csv # Timestamp reference
+└── README.md # Project overview and instructions
