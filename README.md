@@ -6,7 +6,7 @@ This project applies forecasting-based anomaly detection on network traffic usin
 
 Detect anomalies such as DDoS attacks and outages by forecasting normal traffic and identifying significant residual errors.
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: CESNET-TimeSeries24
 - **Subset Used**: IP address `103.csv`
