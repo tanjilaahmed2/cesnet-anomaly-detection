@@ -37,6 +37,7 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
   - 3-Sigma
   - MAD (Median Absolute Deviation)
   - Quantile (1st and 99th percentiles)
+  - **Evaluation Metrics**: Precision, Recall, F1-Score
 
 
 ## Notable Analysis
@@ -44,14 +45,18 @@ Detect anomalies such as DDoS attacks and outages by forecasting normal traffic 
 - Known anomaly (probe outage): May 21 – June 4, 2024
 - Best detection performance achieved using MAD method (F1 = 0.27)
 
-## 📁 Project Structure
-cesnet-anomaly-detection/
-├── CESNET_Anomaly_Detection.ipynb # Main analysis notebook
-├── images/ # Forecast & anomaly detection plots
-│ ├── forecast_vs_actual.png
-│ ├── anomaly_detection_7d_2d.png
-│ └── ...
-├── Presentation_Slides.pdf # 20-min interview slide deck
-├── 103.csv # Sample IP flow data
-├── times_1_hour.csv # Timestamp reference
-└── README.md # Project overview and instructions
+  
+## How to Run
+- **Clone the Repository**:
+- git clone https://github.com/tanjilaahmed2/cesnet-anomaly-detection.git
+- cd cesnet-anomaly-detection
+- jupyter notebook
+- Run CESNET_Anomaly_Detection.ipynb
+  
+The notebook will:
+
+- Load CESNET flow data for a specific IP (103)
+- Train SARIMA model on 31-day windows
+- Perform 7-day and 2-day forecasts
+- Detect anomalies using residual-based methods (3-Sigma, MAD, Quantile)
+- Generate and save plots under /images or /anomaly_plots
